@@ -1,0 +1,173 @@
+.header{
+    background-color: darkblue;
+    color:aliceblue;
+    padding: 15px;
+
+}
+.hd{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+
+}
+.logo{
+    font-size:24px;
+    font-weight: 900;
+    color:aliceblue;
+}
+.link{
+    list-style:none;
+    display:flex;
+    gap:24px;
+    font-size:18px;
+    color:grey;
+}
+.info{
+    background-color:darkblue;
+    display:flex;
+    padding:100px;
+    gap: 24px;
+    align-items: center;
+}
+.left{
+    flex:1;
+}
+.heading{
+    font-weight:900;
+    font-size:48px;
+    color:aliceblue;
+    margin-bottom:10px;
+}
+.para{
+    color:grey;
+    font-size:18px;
+    display:flex;
+    margin-bottom:10px;
+}
+.sign-up{
+    background-color: aqua;
+    color:aliceblue;
+    font-size:18px;
+    font-weight: 800;
+    padding:16px;
+    border:none;
+    border-radius:8px;
+}
+.right{
+    flex:1;
+
+}
+.img-placeholder{
+    background-color: grey;
+    color:azure;
+    padding:24px;
+    justify-content: center;
+    display:flex;
+    height:240px;
+    align-items:center;
+}
+
+.random-info{
+    background-color: aliceblue;
+    
+    text-align: center;
+    padding:50px 15% 100px;
+    flex-direction: column;
+
+}
+.random-info h2{
+    color:black;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    gap:48px;
+    flex-wrap:wrap;
+}
+.card{
+    width:170px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.card-box{
+    width:170px;
+    height:170px;
+    border:4px solid skyblue;
+    border-radius: 16px;
+    margin-bottom:10px;
+}
+.card p{
+    color:grey;
+font-size: 18px;
+}
+
+.quote-info{
+    background-color: gainsboro;
+    display:flex;
+    padding:100px;
+}
+.p2{
+    color:black;
+    font-size:24px;
+    font-weight: 900;
+    margin-bottom:10px;
+
+}
+.author{
+    color:black;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: right;
+}
+.address{
+    padding:100px;
+
+}
+
+.box{
+    background-color: skyblue;
+    display: flex;
+    border:none;
+    border-radius:10px;
+    padding:16px;
+    color:aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-info h3{
+    font-size: 20px;
+    color:white;
+    font-weight: 800;
+}
+.box-info p{
+    font-size: 18px;
+    color:azure;
+
+}
+.add-button{
+    color:beige;
+    background-color: transparent;
+    padding:8px;
+    font-size:18px;
+    font-weight: 800;
+    border-radius:8px;
+    border: 2px solid beige;
+
+
+}
+footer{
+    background-color: darkblue;
+    color:aliceblue;
+    font-size:18px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
